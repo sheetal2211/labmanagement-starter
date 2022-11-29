@@ -7,7 +7,9 @@ import com.socgen.ivy.capstone.entitities.Author;
 
 @Repository
 public interface AuthorRepository extends JpaRepository<Author, Long> {
+	
     Author save(Author author);
     Author findOneById(Long id);
     void deleteById(Long id);
+    
 }
