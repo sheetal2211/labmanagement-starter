@@ -1,4 +1,4 @@
-package com.demo.labmanagement.labmanagement.entity;
+package com.socgen.ivy.capstone.entitities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

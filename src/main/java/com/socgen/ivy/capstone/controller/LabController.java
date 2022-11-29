@@ -1,7 +1,8 @@
-package com.demo.labmanagement.labmanagement.controller;
+package com.socgen.ivy.capstone.controller;
 
-import com.demo.labmanagement.labmanagement.entity.Lab;
-import com.demo.labmanagement.labmanagement.repositories.LabRepository;
+import com.socgen.ivy.capstone.entitities.Lab;
+import com.socgen.ivy.capstone.repositories.LabRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
