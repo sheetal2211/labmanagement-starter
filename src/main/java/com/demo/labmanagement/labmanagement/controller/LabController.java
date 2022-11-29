@@ -32,9 +32,9 @@ public class LabController {
         return new ResponseEntity<>("", HttpStatus.OK);
     }
 
-    /*@PutMapping("/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Lab> updateLab(@PathVariable("id") Long id, @RequestBody Lab lab) {
         lab.setId(id);
         return new ResponseEntity<>(labRepository.save(lab), HttpStatus.OK);
-    }*/
+    }
 }

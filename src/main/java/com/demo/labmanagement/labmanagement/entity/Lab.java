@@ -17,4 +17,5 @@ public class Lab {
     private Category category;
     @OneToOne(cascade = CascadeType.ALL)
     private Author author;
+
 }
