@@ -10,9 +10,9 @@
     <!-- lookup parent from repository -->
   </parent>
   <groupId>com.socgen.ivy.capstone</groupId>
-  <artifactId>capstone-service</artifactId>
+  <artifactId>labmanagement-service-sa</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Capstone-Service</name>
+  <name>Labmanagement-Service</name>
   <description>Capstone service project</description>
   <properties>
     <java.version>8</java.version>
